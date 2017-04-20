@@ -1,0 +1,20 @@
+{
+  "name": "BE",
+  "version": "0.0.1",
+  "description": "back-end",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "cookieparser": "^0.1.0",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "polar-cookieParser": "^0.1.2",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  },
+  "scripts": {
+    "develop": "fis3 release develop -c"
+  }
+}

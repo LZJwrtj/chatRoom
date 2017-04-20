@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="../public/css/index.css">
+</head>
+<body>
+<!--房间ID: <input type="text" id="room_id"><br>
+用户ID：<input type="text" id="user_id"><br>
+昵  称：<input type="text" id="nickname"><br>
+
+<div id="room_info">
+<h2>房间名：聊天</h2>
+<p>房间ID：12</p>
+</div>
+<div class="content"></div>
+<textarea></textarea><br>
+<button cmd="msg">提交</button>
+<div id="output"></div>-->
+    <div class="user_list">
+        <h3>在线用户</h3>
+        <div class="list_content">
+            <ul class="list">
+                <li>所有用户</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content"></div>
+        <div class="input_box">
+            <div class="input" contenteditable="true"></div>
+            <div id="sayingto">你好 <span id="from"></span> ，你正在对 <span id="to"></span> 说</div>
+            <button class="send">发送</button>
+        </div>
+    </div>
+</body>
+<script src="../public/js/jquery.min.js"></script>
+<script src="../public/js/jquery.cookie.js"></script>
+<script src="../node_modules/socket.io-client/dist/socket.io.js"></script>
+<script src='../public/js/index.js'></script>
+</html>
