@@ -7,7 +7,7 @@ var app = express();
 const port = 8081;
 
 app.set('views', __dirname + '/views');
-app.use(express.static(path.join(__dirname, '../BE')));
+app.use(express.static(path.join(__dirname, '../chatRoom')));
 /*app.use(express.urlencoded());//这两句就是用于获取post数据用的
  app.use(express.json());//use要写在所有路由之前，不然该功能就没有被启用*/
 app.use(bodyParser.json());
