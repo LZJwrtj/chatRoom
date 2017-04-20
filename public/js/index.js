@@ -4,8 +4,6 @@ $(function () {
     var socket = io.connect('http://localhost:8081');
     socket.emit('online', {user: from});
     socket.on('online', function (data) {
-        /*console.log(data.users);
-        console.log(from);*/
         if (data.user != from) {
             var sys = '<div style="color: #d60f05;">系统' + now() + ':用户 ' + data.user + '上线了</div>'
         } else {
