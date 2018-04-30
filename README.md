@@ -1,5 +1,6 @@
+
 # chatRoom
-> 基于Node、express和socket.io的多人聊天室
+> 基于Node、express和socket.io的多人聊天室，预览地址：http://47.95.225.38/chat
 
 ### 服务器端运行
 ```shell
